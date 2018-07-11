@@ -42,5 +42,5 @@ block content
                   td #{blog.author}
                   td #{moment(blog.createDate).format('YYYY-MM-DD')}
                   td: a(href='/blogs/view/' + blog._id) View
-                  //td: a(href='/blogs/update/' + blog._id) Update
-                  //td: a(href='/blogs/delete/' + blog._id) Delete
+                  td: a(href='/blogs/update/' + blog._id) Edit
+                  td: a(href='/blogs/delete/' + blog._id) Delete
