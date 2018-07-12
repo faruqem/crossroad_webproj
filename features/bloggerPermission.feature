@@ -1,4 +1,4 @@
-Feature: ConfirmEduEmail
+Feature: Blogger Permission
   Scenario: Email does not contain 'edu'
     Given a blogger email is 'faruqem@yahoo.com'
     When his permission is checked
